@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+psycopg2-binary = "*"
+ujson = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+django-environ = "*"
+pyyaml = "*"
+requests = "*"
+pytest = "*"
+pytest-django = "*"
+model-bakery = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
